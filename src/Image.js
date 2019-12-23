@@ -266,7 +266,6 @@ class Image extends Component {
               ? e => this.props.onClick.call(this, this.props.index, e)
               : null
           }
-          tabIndex="0"
         >
           {ThumbnailImageComponent ? (
             <ThumbnailImageComponent
